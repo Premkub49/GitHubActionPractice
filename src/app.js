@@ -12,7 +12,7 @@ const dayOfTheWeek = (date = new Date()) => {
   return days[date.getDay()];
 };
 
-const mouthOfTheYear = (date = new Date()) => {
+const monthOfTheYear = (date = new Date()) => {
   const month = [
     "January",
     "Februrary",
@@ -37,3 +37,4 @@ try {
 } catch (err) {}
 
 exports.dayOfTheWeek = dayOfTheWeek;
+exports.monthOfTheYear = monthOfTheYear;
